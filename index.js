@@ -15,6 +15,12 @@ const questions = [
         name: "description",
         message:"What is the description of your project",
     },
+    {
+         type: 'checkbox',
+        message: 'Please provide the license you used for this project',
+        name: 'license',
+        choices: ["MIT", "Apache", "Mozilla Public License", "none"]
+    },
 ];
 
 // TODO: Create a function to write README file
@@ -24,8 +30,13 @@ return fs.writeFileSync(path.join(process.cwd(),fileName),data)
 
 // TODO: Create a function to initialize app
 function init() {
-    
+    inquirer.prompt(questions)
+    .then((Response)=>{
+        console.log("writingReadME")
+        writeToFile("README.md",generateMD({...Response}))
+    })
 }
 
 // Function call to initialize app
 init();
+
