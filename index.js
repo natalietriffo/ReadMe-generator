@@ -17,10 +17,27 @@ const questions = [
         message:"What is the description of your project",
     },
     {
+        type: "input",
+        name: "GitHubURL",
+        message:"What is your Github",
+    },
+    {
+        type: "input",
+        name: "Email",
+        message:"What is your Email",
+    },
+    
+    {
          type: 'checkbox',
         message: 'Please provide the license you used for this project',
         name: 'license',
         choices: ["MIT", "Apache", "Mozilla Public License", "none"]
+    },
+
+    {
+        type: "input",
+        name: "questions",
+        message:"Do you have any questions about the project?",
     },
 ];
 

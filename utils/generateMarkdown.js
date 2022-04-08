@@ -52,9 +52,7 @@ function generateMarkdown(data) {
   [Questions](#questions)
 
   ## Installation
-
-  ${data.install}
-Run this in your terminal.
+Run this in your terminal using ${data.install}.
   
 ## Usage
 
@@ -64,7 +62,6 @@ ${renderLicenseSection(data.license)}
 ## Test
 
 ${data.test}
-
 To test the code, run this in your terminal.
 
 ## Questions

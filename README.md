@@ -1,36 +1,29 @@
-# abc
+# Natalies Project
   ![GitHub license](https://img.shields.io/badge/license--green.svg)
   ## description
-  
+  ReadMe Project
   ## table of contents 
   [Installation] (#intallation)
   
-   [license](#license)
-    
-  [Usage](#usage)
-  [Test](#test)
-  [Questions](#questions)
+[license](#license) 
+[Usage](#usage)
+[Test](#test)
+[Questions](#questions)
 
-  ## Installation
-
-  undefined
-Run this in your terminal.
+# Installation
+Run the code in your terminal.
   
-## Usage
+# Usage
 
-undefined
+The usage of this data.
 
-    ## license 
-    This project is licensed under .
+
+# license 
+The license of the project.
     
 
 ## Test
-
-undefined
-
 To test the code, run this in your terminal.
 
 ## Questions
-
-undefined
-To get help for any questions, please email me undefined, undefined
+To get help for any questions, please email me.
