@@ -4,11 +4,11 @@
   ReadMe Project
   ## Table of Contents 
   
-[Installation] (#intallation)
-[License](#license) 
-[Usage](#usage)
-[Test](#test)
-[Questions](#questions)
+[Installation](#Installation)
+[License](#License) 
+[Usage](#Usage)
+[Test](#Test)
+[Questions](#Questions)
 
 # Installation
 Run the code in your terminal.
